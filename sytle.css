@@ -1,0 +1,97 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+#main {
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player {
+    background-color: #FC4100;
+}
+
+#computer {
+    background-color: #00215E;
+}
+
+#player, #computer {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 20px;
+}
+
+#player h2, #computer h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#computer-name {
+    right: 20px;
+}
+
+#player-name, #computer-name {
+    position: absolute;
+    font-size: 24px;
+}
+
+#player-score {
+    right: 20px;
+}
+
+#computer-score {
+    left: 20px;
+}
+
+#player-score, #computer-score {
+    position: absolute;
+    top: 8px;
+    font-size: 52px;
+}
+
+#player-choice, #computer-choice {
+    list-style: none;
+    text-align: center;
+    margin: 50px 0 0;
+    padding: 0;
+}
+
+#player-choice li, #computer-choice li {
+    display: inline;
+    padding: 0 15px;
+}
+
+#player-choice a, #computer-choice a {
+    opacity: .3;
+}
+
+#player-choice a:hover, #player-choice a.selected, #computer-choice a.selected {
+    opacity: 1;
+}
+
+#player-choice img, #computer-choice img {
+    max-width: 80px;
+}
+
+#against {
+    font-size: 80px;
+    padding: 0 20px;
+}
+
+#msg {
+    background-color: #FFC55A;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 24px;
+}
